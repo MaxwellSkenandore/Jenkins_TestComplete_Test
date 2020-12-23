@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{438333D5-28BD-42BD-92E0-46549FB8DFD8}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="notepad" Key="{D09F0496-1B31-462C-A915-FEA3EB42E0D8}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="notepad" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndNotepad" Key="{DF7EDAC3-B3A8-405F-AF16-169A28C00EDF}">
+								<Image FileName="1485204530" Left="0" Top="0" Right="1068" Bottom="516" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Notepad" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Edit" Key="{AB6A625F-2C8F-4698-86F2-A8F0513498F7}">
+										<Image FileName="1485204530" Left="8" Top="51" Right="1060" Bottom="508" />
+										<TypeInfo Item0="{D4A279AB-9C7C-49E3-8151-AB9B91BED0C2}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Edit" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="notepad" Owner="{D09F0496-1B31-462C-A915-FEA3EB42E0D8}">
+			<Child Name="wndNotepad" Owner="{DF7EDAC3-B3A8-405F-AF16-169A28C00EDF}">
+				<Child Name="Edit" Owner="{AB6A625F-2C8F-4698-86F2-A8F0513498F7}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
