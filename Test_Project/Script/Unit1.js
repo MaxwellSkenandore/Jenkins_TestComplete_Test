@@ -1,3 +1,3 @@
 ﻿function testchange(){
-  Log.Message("Whoooooo")
+  Log.Message("Whoooo")
 }
